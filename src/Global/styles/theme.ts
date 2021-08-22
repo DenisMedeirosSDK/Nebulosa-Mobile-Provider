@@ -13,11 +13,11 @@ export default {
     text_dark: '#47474D',
   },
   fonts: {
-    archivo_400: '',
-    archivo_500: '',
-    archivo_600: '',
-    inter_400: '',
-    inter_500: '',
-    inter_600: '',
+    archivo_400: 'Archivo_400Regular',
+    archivo_500: 'Archivo_500Medium',
+    archivo_600: 'Archivo_600SemiBold',
+    inter_400: 'Inter_400Regular',
+    inter_500: 'Inter_500Medium',
+    inter_600: 'Inter_600SemiBold',
   },
 };
