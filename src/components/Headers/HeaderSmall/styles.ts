@@ -10,9 +10,20 @@ export const Container = styled.View`
   justify-content: flex-end;
 `;
 
+export const Content = styled.View`
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+`;
+
+export const Wrapper = styled.View`
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const Title = styled.Text`
   color: ${({ theme }) => theme.colors.text_light};
   font-family: ${({ theme }) => theme.fonts.archivo_600};
   font-size: ${RFValue(25)}px;
-  margin-bottom: 20px;
 `;
